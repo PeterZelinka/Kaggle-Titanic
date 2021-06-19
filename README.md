@@ -1,7 +1,7 @@
 # Kaggle Titanic Machine Learning Competition
 
 ## Introduction
-This project represents a take on the Kaggle Titanic competition. After data exploration, cleaning and feature engineering, 3 classification models are fitted to the training data supplied by Kaggle. Each model together with various hyperparameters is input to sklearn's grid search and model with highest accuracy is returned and used for predicting values of the survived column. The The workflow of the project was desinged such that it is relatively easy add/remove models and/or parameters and submit the predicted values.
+This project represents a take on the Kaggle Titanic competition. After data exploration, cleaning and feature engineering, 3 classification models are fitted to the training data supplied by Kaggle. Each model together with various hyperparameters is input to sklearn's grid search and one with highest accuracy is returned and used for predicting values of the survived column. The The workflow of the project was desinged such that it is relatively easy add/remove models and/or parameters and submit the predicted values.
 
 ## Datasets
 The data is divided into two datasets train.csv and test.csv. The former contains data about passengers including whether they have survived or not (the ground truth). The latter on the other hand contains the same features except for the survived column. The information in test.csv are used to make prediction that are submitted to Kaggle.
