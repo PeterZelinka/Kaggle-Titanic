@@ -1,4 +1,4 @@
-# Kaggle Titanic Machine Learning Competition
+# Titanic Passenger Survival Prediction
 
 ## Introduction
 This project represents a take on the Kaggle Titanic competition. After data exploration, cleaning and feature engineering, 3 classification models are fitted to the training data supplied by Kaggle. Each model together with various hyperparameters is input to sklearn's grid search and one with highest accuracy is chosen for predicting whether a passenger survived or not. The workflow of the project was desinged such that it is relatively easy to add/remove models, variables and/or parameters and submit the predicted values.
