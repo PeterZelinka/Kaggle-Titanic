@@ -31,7 +31,7 @@ To install the requirements you can use `pip install -r requirements.txt`
 
 In a directory of your choice, run:
 
- 1. `git clone https://github.com/PeterZelinka/Message-Classifier.git`
+ 1. `git clone https://github.com/PeterZelinka/Titanic-Passenger-Survival-Prediction.git`
 
  2. Install [Anaconda](https://www.anaconda.com/products/individual)
  3. Open JupyterNotebook
