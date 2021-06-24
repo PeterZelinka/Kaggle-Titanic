@@ -20,5 +20,20 @@ The data is divided into two datasets. The train.csv and the test.csv. The forme
 - `Cabin` (Cabin number)
 - `Embarked` (Port of Embarkation)
 
-## Reproducing the project
-In order to reproduce the analysis all you need to do is download train.csv, test.csv and Kaggle Titanic.ipnyb and run the latter.
+## Installation
+
+### Install the requirements:
+
+To install the requirements you can use `pip install -r requirements.txt`
+-	You may also choose to use virtual environment for this
+
+### To install the project:
+
+In a directory of your choice, run:
+
+ 1. `git clone https://github.com/PeterZelinka/Message-Classifier.git`
+
+ 2. Install [Anaconda](https://www.anaconda.com/products/individual)
+ 3. Open JupyterNotebook
+ 4. Navigate to the location where you cloned the directory
+ 5. Open and run Titanic.ipynb
